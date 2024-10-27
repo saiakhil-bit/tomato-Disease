@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load your trained model
-model = tf.keras.models.load_model(r'C:\Users\AKHIL\tamatoproject\model1.keras')
+model = tf.keras.models.load_model(r'model1.keras')
 
 # Function to preprocess image for prediction
 def preprocess_image(image):
